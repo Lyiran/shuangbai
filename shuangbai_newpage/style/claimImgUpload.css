@@ -1,0 +1,188 @@
+.imgUpload-page {
+	font-size: .26rem;
+	line-height: .39rem;
+}
+.imgUpload-page .order-schedule  {
+	margin-top: .2rem;
+	padding: .2rem;
+}
+.order-schedule p {
+	font-size: .3rem;
+	color: #434343;
+	line-height: .4rem;
+}
+
+
+
+.imgUpload-page .img-upload {
+	margin-top: .2rem;
+}
+.img-upload .uploader-title {
+	padding-right: .8rem;
+	text-align: right;
+
+}
+.img-upload .uploader-title a {
+	color: #416dfe;
+	font-size: .28rem;
+}
+.img-upload form {
+	padding: .2rem;
+}
+.img-upload .form-line {
+	height: 1.95rem;
+	border: 1px solid #dedede;
+	border-bottom: 0;
+	background: #fff;
+	font-size: .3rem;
+	color: #2e2e2e;
+	overflow: hidden;
+}
+.img-upload label {
+	float: left;
+	height: 1.95rem;
+  line-height: 1.95rem;
+  padding-left: .5rem;
+  width: 50%;
+}
+/* .img-upload label span {
+	display: block;
+	line-height: .3rem;
+	font-size: .24rem;
+	color: #a6a6a6;
+} */
+.img-upload .input-ct {
+	position: relative;
+	margin-left: 58%;
+	cursor: pointer;
+	width: 2rem;
+	height: 1.39rem;
+	margin-top: .28rem;
+	overflow: hidden;
+	background: url(../images/img-up.jpg) no-repeat center center;
+	background-size: 100% 100%;
+}
+.img-upload .input-ct input {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 2rem;
+	height: 1.39rem;
+	background: #ccc;
+	opacity: 0;
+	/*display: none;*/
+}
+
+
+.btn {
+	background-color: #f4f2ef;
+	margin-top: .5rem;
+	padding: 0 10%;
+}
+.submit-img-btn {
+	display: block;
+	margin-left: 10%;
+	width: 80%;
+	height: .72rem;
+	line-height: .72rem;
+	background-color: #ffaf00;
+	border-radius: .13rem;
+	-webkit-border-radius: .13rem;
+	-moz-border-radius: .13rem;
+	-o-border-radius: .13rem;
+	text-align: center;
+	font-size: .24rem;
+	color: #fff;
+}
+
+
+/* 提示弹出层样式 */
+.dialog-backdrap {
+  display: none;
+  position: fixed;
+  z-index: 10000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .5);
+}
+
+.dialog {
+  display: none;
+  position: fixed;
+  z-index: 10001;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background: #fff;
+  font-size: .1rem;
+}
+
+/*    .dialog .dialog-cont {
+  padding: 20px;
+  text-align: center;
+}
+*/
+.dialog .dialog-ft {
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.dialog-alert {
+  width: 50%;
+  height: 2.5rem;
+
+}
+
+.dialog-alert .dialog-cont {
+  text-align: center;
+  height: 2rem;
+  overflow-y: scroll;
+}
+
+.dialog-alert .dialog-ft {
+  text-align: center;
+  background-color: #fff;
+/*   height:  */
+}
+
+.dialog-alert .btn-ok {
+ 	display: block;
+  color: #36f;
+  height: .3rem;
+  line-height: .2rem;
+  font-size: .18rem;
+  background-color: #fff;
+}
+
+/* 遮罩层内容样式 */
+.dialog .dialog-cont .img-wrap {
+
+}
+.dialog .dialog-cont h3 {
+	font-size: .2rem;
+	color: red;
+	font-weight: bold;
+	margin-top: .1rem;
+	margin-bottom: .2rem;
+}
+.dialog-cont .img-wrap {
+	overflow: hidden;
+	margin-bottom: .2rem;
+}
+.dialog-cont .img-wrap img {
+	width: 1.6rem;
+	height: 1.2rem;
+	background-color: red;
+	float: left;
+	margin-left: 20%;
+}
+.dialog-cont .img-wrap span {
+	display: block;
+	height: 1.2rem;
+	line-height: 1.2rem;
+	margin-left: 3rem;
+	text-align: left;
+}

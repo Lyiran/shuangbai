@@ -1,0 +1,46 @@
+.service-empty-page {
+	font-size: .26rem;
+	line-height: .39rem;
+}
+.service-empty-page .tips-title {
+	width: 3.8rem;
+	margin: 0 auto;
+	padding-top: .8rem;
+}
+.tips-title .tips-img {
+	width: 3.71rem;
+	height: 4.39rem;
+	background: url(../images/inquire/service.png) no-repeat 0 0;
+	background-size: 100% auto;
+	margin-bottom: .2rem;
+}
+.tips-title .tips-ct {
+	font-size: .24rem;
+	color: #b8b8b8;
+	text-align: center;
+}
+.btn-wrap {
+	margin-top: .3rem;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+}
+.btn-wrap .buy-service {
+	display: block;
+	height: .72rem;
+	line-height: .72rem;
+	background-color: #ffaf00;
+	border: 1px solid #ff8a00;
+	border-radius: .13rem;
+	-webkit-border-radius: .13rem;
+	-moz-border-radius: .13rem;
+	-o-border-radius: .13rem;
+	text-align: center;
+	font-size: .34rem;
+	color: #fff;
+}
+.btn-wrap .back-input-btn {
+	display: inline-block;
+	margin-top: .5rem;
+	color: #008aff;
+}

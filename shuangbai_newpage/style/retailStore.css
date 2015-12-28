@@ -1,0 +1,56 @@
+.retail-store-page {
+	font-size: .26rem;
+	line-height: .39rem;
+}
+.retail-store-page .tips-title {
+	margin-top: .4rem;
+	height: 1.4rem;
+	text-align: center;
+	font-size: 0;
+}
+.tips-title .tips-icon {
+	display: inline-block;
+	width: .88rem;
+	height: .88rem;
+	background: url(../images/success.png) no-repeat center center;
+	background-size: 100% auto;
+	margin-right: .34rem;
+}
+.tips-title .tips-ct {
+	display: inline-block;
+	height: .88rem;
+	line-height: .88rem;
+	font-size: .36rem;
+	vertical-align: top;
+	color: #7fc400;
+}
+.retail-store-page .retail-store-ct {
+	margin-top: .2rem;
+	padding: 0 .3rem;
+}
+.retail-store-ct p {
+	color: #8e8e8e;
+	text-align: center;
+}
+
+.btn {
+	background-color: #f4f2ef;
+	margin-top: .5rem;
+	padding: 0 10%;
+}
+.finish-btn {
+	display: block;
+	margin-left: 10%;
+	width: 80%;
+	height: .72rem;
+	line-height: .72rem;
+	background-color: #ffaf00;
+	border: 1px solid #ff8a00;
+	border-radius: .13rem;
+	-webkit-border-radius: .13rem;
+	-moz-border-radius: .13rem;
+	-o-border-radius: .13rem;
+	text-align: center;
+	font-size: .24rem;
+	color: #fff;
+}

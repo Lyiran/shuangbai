@@ -1,0 +1,172 @@
+.infor-fill-page {
+	font-size: .26rem;
+	line-height: .39rem;
+}
+.infor-fill-page .order-schedule  {
+	margin-top: .4rem;
+	height: 1.4rem;
+	padding: .2rem;
+	text-align: center;
+}
+.order-schedule .step-wrap {
+	width: 1.2rem;
+	display: inline-block;
+	height: 1.4rem;
+	vertical-align: top;
+	font-size: 0rem;
+	text-align: center;
+}
+.order-schedule .steps {
+	display: inline-block;
+	width: .88rem;
+	height: .88rem;
+	line-height: .88rem;
+	text-align: center;
+	color: #fff;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	background-color: #cfcfcf;
+	font-size: .26rem;
+}
+.order-schedule .step-3 {
+	position: relative;
+}
+.order-schedule .step-title {
+	width: 1.2rem;
+	margin-top: .1rem;
+	overflow: hidden;
+	text-align: center;
+	font-size: .26rem;
+}
+.order-schedule .step-inner {
+	display: inline-block;
+	width: .78rem;
+	height: .78rem;
+	line-height: .78rem;
+	text-align: center;
+	color: #cfcfcf;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	background-color: #f4f2ef;
+/* 	position: absolute;
+top: 50%;
+left: 50%;
+margin-top: -.39rem;
+margin-left: -.39rem; */
+}
+.order-schedule .active .step-title {
+	color: #ffa98c;
+}
+.order-schedule .active .steps {
+	background-color: #ffa98c;
+}
+.order-schedule .circle-line {
+	display: inline-block;
+	vertical-align: top;
+	line-height: .8rem;
+	font-size: 0rem;
+}
+.order-schedule span {
+	display: inline-block;
+	width: .1rem;
+	height: .1rem;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	background-color: #cfcfcf;
+	margin-left: .08rem;
+}
+.order-schedule .current span {
+	background-color: #ffa98c;
+}
+
+
+.infor-fill-page .fill-form {
+	margin: .2rem;
+
+}
+.fill-form .insurance-title {
+	border: 1px solid #ffa587;
+	background-color:  rgba(255, 165, 135, .2);
+	padding-left: .2rem;
+	font-size: .28rem;
+	line-height: .6rem;
+	clear: both;
+}
+.fill-form .input-ct {
+	border: 1px solid #cfcfcf;
+	border-top: none;
+	height: .8rem;
+	line-height: .8rem;
+	padding-left: .2rem;
+	overflow: hidden;
+	background: #fff;
+}
+.fill-form .input-ct span {
+	display: block;
+	width: 40%;
+	font-size: .3rem;
+	float: left;
+}
+.fill-form .input-ct .input-wrap {
+	margin-left: 40%;
+	height: .8rem;
+}
+.input-ct .input-wrap input {
+	width: 94%;
+	height: .8rem;
+	line-height: .8rem;
+	font-size: .28rem;
+	text-align: right;
+}
+.fill-form .check-ct {
+	padding-top: .3rem;
+	background-color: #f4f2ef;
+	overflow: hidden;
+}
+.check-ct .check-wrap {
+	float: left;
+	width: .5rem;
+	height: .7rem;
+	margin-top: .1rem;
+}
+.check-wrap input {
+	width: .4rem;
+	height: .4rem;
+	background: #fff;
+	border: 1px solid #cfcfcf;
+	-webkit-appearance: checkbox;
+}
+.check-ct span {
+	display: block;
+	margin-left: .5rem;
+	font-size: .24rem;
+}
+.check-ct .server-terms {
+	color: #3497ff;
+}
+.fill-form .btn {
+	background-color: #f4f2ef;
+	margin-left: 20%;
+	margin-top: .5rem;
+}
+.fill-form .next-btn {
+	display: block;
+	width: 80%;
+	height: .72rem;
+	line-height: .72rem;
+	background-color: #ffaf00;
+	border-radius: .13rem;
+	-webkit-border-radius: .13rem;
+	-moz-border-radius: .13rem;
+	-o-border-radius: .13rem;
+	text-align: center;
+	font-size: .24rem;
+	color: #fff;
+	letter-spacing: .1rem;
+}

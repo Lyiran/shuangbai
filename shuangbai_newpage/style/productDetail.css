@@ -1,0 +1,177 @@
+.product-page {
+	font-size: .26rem;
+	line-height: .39rem;
+}
+.product-page .product-intro {
+	background-color: #fff;
+}
+.product-intro img {
+	width: 100%;
+}
+.product-intro .product-intro-ct {
+	padding: .2rem;
+	font-size: 0;
+}
+.product-intro .product-intro-ct h3 {
+	font-size: .34rem;
+	color: #434343;
+	margin-bottom: .2rem;
+}
+.product-intro .product-intro-ct p {
+	font-size: .24rem;
+	color: #7a7a7a;
+}
+.product-intro-ct .tags {
+	margin-top: .2rem;
+}
+.product-intro-ct .tags span {
+	display: inline-block;
+	padding: .05rem .3rem;
+	border: 1px solid #ff6600;
+	border-radius: .5rem;
+	color: #ff6600;
+	font-size: .24rem;
+	line-height: .3rem;
+	text-align: center;
+	margin-right: .2rem;
+}
+.product-intro .product-price {
+	border-top: 1px solid #cfcfcf;
+	padding: .2rem;
+}
+.product-intro .product-price span {
+	color: #ff3535;
+}
+
+
+.product-page .insurce-detail {
+	margin-top: .2rem;
+	padding: .2rem;
+	background-color: #fff;
+}
+.insurce-detail h3 {
+	color: #e65c00;
+	font-size: .32rem;
+	padding-bottom: .14rem;
+	border-bottom: 1px solid #ffbc91;
+}
+.insurce-detail h3 span {
+	display: inline-block;
+	padding-left: .2rem;
+}
+.insurce-detail .detail-line {
+	margin-top: .1rem;
+	padding: 0 .2rem .2rem .2rem;
+	border-bottom: 1px solid #ffbc91;
+}
+.insurce-detail .detail-line span {
+	display: block;
+	font-size: .28rem;
+	color: #434343;
+	margin-bottom: .1rem;
+}
+.insurce-detail .detail-line p {
+	color: #787878;
+	font-size: .26rem;
+}
+.insurce-detail .more-detail {
+	color: #ff6600;
+}
+.insurce-detail .more-detail a {
+	width: 100%;
+	height: .56rem;
+	line-height: .66rem;
+	display: block;
+	color: #ff6600;
+	text-align: center;
+}
+
+.more-detail .more-ct {
+	display: none;
+}
+.more-ct .detail-line {
+	padding: .1rem .2rem 0 .2rem;
+	border-top: 1px solid #ffbc91;
+	border-bottom: none;
+}
+
+
+/* 所需材料开始 */
+.product-page .material {
+	margin-top: .2rem;
+	margin-bottom: .5rem;
+}
+.material .material-line {
+	padding: .2rem;
+	background-color: #fff;
+	margin-bottom: .2rem;
+}
+.material-line .line-title {
+	overflow: hidden;
+	padding-right: .4rem;
+}
+.material-line .line-title span {
+	display: block;
+	float: left;
+	padding-left: .2rem;
+	color: #e65c00;
+	padding-bottom: .1rem;
+}
+.material-line .material-ct {
+	border-top: 1px solid #ffbc91;
+	padding: .2rem .2rem 0 .2rem;
+	color: #787878;
+	display: none;
+}
+/* 伸展图标样式开始 */
+.material-line .icon-btn {
+	display: block;
+	float: right;
+	width: .8rem;
+	height: .48rem;
+	line-height: .4rem;
+	text-align: center;
+}
+.material-line .icon-btn i {
+	display: inline-block;
+	width: .16rem;
+	height: .1rem;
+	background: url(../images/zhankai.png) no-repeat 0 0;
+	background-size: 100% auto;
+}
+.material-line .icon-btn .expend {
+	background-position: 0 -.1rem;
+	background-size: 100% auto;
+}
+
+
+/* 伸展图标样式结束 */
+.btn-bar .btn-bar-ct {
+	margin: .1rem .4rem;
+}
+/* .btn-bar-ct .share {
+	display: block;
+	float: left;
+	width: 32%;
+	height: .7rem;
+	line-height: .7rem;
+	background-color: #ffc59f;
+	border: 1px solid #ff8a00;
+	border-radius: .13rem;
+	font-size: .32rem;
+	color: #ff6600;
+	text-align: center;
+} */
+.btn-bar-ct .go-insure {
+	display: block;
+	margin: 0 auto;
+	width: 62%;
+	height: .7rem;
+	line-height: .7rem;
+	background-color: #ff6600;
+	border: 1px solid #ff8a00;
+	border-radius: .13rem;
+	font-size: .32rem;
+	color: #ffffff;
+	text-align: center;
+}

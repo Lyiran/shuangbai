@@ -1,0 +1,120 @@
+.purchase-success-page {
+	font-size: .26rem;
+	line-height: .39rem;
+}
+.purchase-success-page .tips-title {
+	margin-top: .4rem;
+	height: 1.4rem;
+	text-align: center;
+	font-size: 0;
+}
+.tips-title .tips-icon {
+	display: inline-block;
+	width: .88rem;
+	height: .88rem;
+	background: url(../images/success.png) no-repeat center center;
+	background-size: 100% auto;
+	margin-right: .34rem;
+}
+.tips-title .tips-ct {
+	display: inline-block;
+	height: .88rem;
+	line-height: .88rem;
+	font-size: .36rem;
+	vertical-align: top;
+	color: #7fc400;
+}
+
+
+.purchase-success-page .significance-ct {
+	margin-left: .2rem;
+	margin-right: .2rem;
+	background-color: #fff;
+	padding: .3rem .2rem;
+}
+.significance-ct h3 {
+	font-size: .34rem;
+	color: #434343;
+	margin-bottom: .2rem;
+}
+.significance-ct span {
+	display: inline-block;
+	font-size: .3rem;
+	color: #434343;
+	margin-bottom: .2rem;
+}
+.significance-ct p {
+	font-size: .28rem;
+	color: #a6a6a6;
+}
+.significance-ct .insure-tips {
+	padding-top: .2rem;
+}
+.insure-tips .line {
+	overflow: hidden;
+}
+.insure-tips .line .line-left {
+	display: block;
+	width: 45%;
+	float: left;
+}
+.insure-tips .line .line-right {
+	display: block;
+	margin-left: 45%;
+	text-align: right;
+}
+
+.purchase-success-page .attention-ct {
+	margin: 0 .2rem;
+	padding: .2rem;
+	background-color: #91989f;
+	height: 2.4rem;
+}
+.attention-ct .attention-tips {
+	width: 50%;
+	float: left;
+	position: relative;
+}
+.attention-tips .tips-ct-wrap {
+	width: 90%;
+	margin: .24rem auto;
+}
+.attention-tips .tips-1 {
+	border-bottom: 1px solid #bebebe;
+	padding-bottom: .1rem;
+}
+.attention-tips p {
+	color: #fff;
+	margin-bottom: .2rem;
+}
+.attention-ct .attention-code {
+	margin-left: 50%;
+	text-align: center;
+}
+.attention-code img {
+	width: 2.4rem;
+	height: 2.4rem;
+	overflow: hidden;
+}
+
+
+.btn {
+	background-color: #f4f2ef;
+	margin-top: .5rem;
+	padding: 0 10%;
+}
+.finish-btn {
+	display: block;
+	margin-left: 10%;
+	width: 80%;
+	height: .72rem;
+	line-height: .72rem;
+	background-color: #ffaf00;
+	border-radius: .13rem;
+	-webkit-border-radius: .13rem;
+	-moz-border-radius: .13rem;
+	-o-border-radius: .13rem;
+	text-align: center;
+	font-size: .24rem;
+	color: #fff;
+}

@@ -1,0 +1,90 @@
+.select-purchase-page {
+	font-size: .26rem;
+	color: #2e2e2e;
+}
+.select-purchase-page .select-purchase-top {
+	height: 2.7rem;
+	overflow: hidden;
+}
+.select-purchase-top .ad-img {
+	width: 100%;
+}
+
+/* 项目选择项开始 待优化 */
+.select-purchase-page .select-list {
+	margin-top: .2rem;
+	background-color: #fff;
+}
+.select-list .order {
+	height: .66rem;
+	overflow: hidden;
+	padding: .1rem 0;
+	border-bottom: 1px solid #dedede;
+}
+.order .select-item {
+	line-height: .66rem;
+	float: left;
+	width: 33%;
+	border-right: 1px solid #dedede;
+}
+.order .gears {
+	border-right: none;
+}
+/* 项目选项结尾 */
+
+
+.select-purchase-page .select-purchase-list {
+	padding: 0 .2rem;
+}
+.select-purchase-list .purchase-bar {
+	padding-top: .2rem;
+	padding-bottom: .1rem;
+}
+.purchase-bar img {
+	width: 2rem;
+	height: 2rem;
+	float: left;
+	border: 1px solid #dedede;
+}
+.purchase-bar .purchase-text {
+	height: 2rem;
+	margin-left: 2.2rem;
+	border-bottom: 1px solid #dedede;
+	position: relative;
+}
+.purchase-bar .purchase-text h3 {
+	font-size: .32rem;
+	color: #2e2e2e;
+	margin-bottom: .1rem;
+}
+.purchase-text .purchase-info {
+	font-size: .24rem;
+	color: #aeaeae;
+	line-height: .32rem;
+}
+.purchase-text .purchase-price {
+	font-size: .3rem;
+	line-height: .47rem;
+	color: #ff0000;
+}
+.purchase-text .sale-num {
+	font-size: .22rem;
+	color: #aeaeae;
+}
+.purchase-text .go-buy {
+	display: block;
+	width: 1.6rem;
+	height: .46rem;
+	line-height: .46rem;
+	font-size: .28rem;
+	color: #fff;
+	text-align: center;
+	background-color: #ff8429;
+	border-radius: .07rem;
+	-webkit-border-radius: .07rem;
+	-moz-border-radius: .07rem;
+	-o-border-radius: .07rem;
+	position: absolute;
+	right: 0;
+	bottom: .12rem;
+}

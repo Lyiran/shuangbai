@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="telephone=no,email=no" name="format-detection">
+	<link rel="stylesheet" href="../style/globalStyle/global.css">
+	<link rel="stylesheet" href="../style/imgUpload.css">
+	<title>上传图片</title>
+</head>
+<body>
+	<header class="fixed-top">
+		<div class="g-header">
+			<a class="go-back" href="#">
+				<i class="back-icon"></i>
+			</a>
+			<h1>上传图片</h1>
+		</div>
+	</header>
+
+	<div class="wrap-page">
+		<section class="imgUpload-page">
+			<div class="order-schedule">
+				<div class="step-wrap">
+					<div class="steps step-1">1</div>
+					<p class="step-title">基本信息</p>
+				</div>
+				<div class="circle-line">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="step-wrap active">
+					<div class="steps step-2">2</div>
+					<p class="step-title">上传照片</p>
+				</div>
+				<div class="circle-line">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="step-wrap">
+					<div class="steps step-3">
+						<div class="step-inner">
+							3
+						</div>
+					</div>
+					<p class="step-title">信息确认</p>
+				</div>
+			</div>
+
+			<div class="img-upload">
+				<p class="uploader-title"><a id="j_photoDemo">上传照片样例</a></p>
+					<!-- 图片demo层开始 -->
+				  <div class="dialog dialog-alert" id="j-dialog-alert">
+				    <div class="dialog-cont">
+				    	<h3>照片实例</h3>
+				    	<div class="img-wrap">
+				    		<img  class="imei-face" src="" alt="手机正面带IMEI号照" >
+				    		<span>手机正面带IMEI号照片</span>
+				    	</div>
+
+				    	<div class="img-wrap">
+				    		<img class="phone-back" src="" alt="手机背面">
+				    		<span>手机背面照</span>
+				    	</div>
+
+				    	<div class="img-wrap">
+				    		<img class="id-face" src="" alt="身份证正面照">
+				    		<span>身份证正面照</span>
+				    	</div>
+
+				    	<div class="img-wrap">
+				    		<img class="id-back" src="" alt="身份证背面照">
+				    		<span>身份证背面照</span>
+				    	</div>
+
+				    </div>
+				    <div class="dialog-ft">
+				      <a href="javascript:;" class="btn btn-ok">确定</a>
+				    </div>
+				  </div>
+				   <div class="dialog-backdrap" id="j-dialog-backdrap"></div>
+				  <!-- 图片demo层结束 -->
+
+				<form id="j-form">
+					<div class="form-line">
+						<label>手机正面带IMEI号</label>
+						<div class="input-ct j-ipt-phone-front">
+							<input type="file" value="" id="j_phfaceOrImei" capture="camera" accept="image/*">
+						</div>
+					</div>
+					<div class="form-line">
+						<label>手机背面</label>
+						<div class="input-ct j-ipt-phone-back">
+							<input type="file" value="" id="j_phoneBack" capture="camera" accept="image/*">
+						</div>
+					</div>
+					<div class="form-line">
+						<label>身份证正面</label>
+						<div class="input-ct j-ipt-id-front">
+							<input type="file" value="" id="j_face" capture="camera" accept="image/*">
+						</div>
+					</div>
+					<div class="form-line">
+						<label>身份证背面</label>
+						<div class="input-ct j-ipt-id-back">
+							<input type="file" value="" id="j_back" capture="camera" accept="image/*">
+						</div>
+					</div>
+				</form>
+				<div class="btn">
+					<a class="submit-img-btn" id="j-submit" href="javascript:;">下一步</a>
+				</div>
+			</div>
+		</section>
+	</div>
+	<script type="text/javascript" src="../js/jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="../js/layer.m.js"></script>
+	<script type="text/javascript" src="../js/imgUpload.js"></script>
+</body>
+</html>

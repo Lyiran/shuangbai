@@ -1,0 +1,46 @@
+.my-service-page {
+	font-size: .26rem;
+	line-height: .39rem;
+}
+.my-service-page .servie-lists {
+	padding: 0 .3rem;
+}
+.servie-lists .servie-line-bar{
+	border: 1px solid #cfcfcf;
+	background-color: #fff;
+	margin-top: .2rem;
+}
+.servie-line-bar .line-bar-ct {
+	padding: .3rem;
+}
+.line-bar-ct h3 {
+	font-size: .32rem;
+	color: #2e2e2e;
+	margin-bottom: .15rem;
+}
+.line-bar-ct p {
+	height: .46rem;
+	line-height: .46rem;
+	color: #a6a6a6;
+}
+.line-bar-ct p span {
+	margin-left: .3rem;
+}
+.servie-line-bar .btn-wrap {
+	width: 100%;
+	overflow: hidden;
+}
+.btn-wrap .btn {
+	display: inline-block;
+	width: 50%;
+	height: .6rem;
+	line-height: .6rem;
+	float: left;
+	background-color: #ffd9cd;
+	font-size: .28rem;
+	text-align: center;
+	color: #2e2e2e;
+}
+.btn-wrap .btn-repairs {
+	background-color: #ffefea;
+}

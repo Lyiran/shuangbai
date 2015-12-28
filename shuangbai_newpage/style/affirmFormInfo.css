@@ -1,0 +1,171 @@
+.affirm-infor-page {
+	font-size: .26rem;
+	line-height: .39rem;
+}
+.affirm-infor-page .order-schedule  {
+	margin-top: .4rem;
+	height: 1.4rem;
+	padding: .2rem;
+	text-align: center;
+}
+.order-schedule .step-wrap {
+	width: 1.2rem;
+	display: inline-block;
+	height: 1.4rem;
+	vertical-align: top;
+	font-size: 0rem;
+	text-align: center;
+}
+.order-schedule .steps {
+	display: inline-block;
+	width: .88rem;
+	height: .88rem;
+	line-height: .88rem;
+	text-align: center;
+	color: #fff;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	background-color: #cfcfcf;
+	font-size: .26rem;
+}
+.order-schedule .step-3 {
+	position: relative;
+}
+.order-schedule .step-title {
+	width: 1.2rem;
+	margin-top: .1rem;
+	overflow: hidden;
+	text-align: center;
+	font-size: .26rem;
+}
+.order-schedule .step-inner {
+	display: inline-block;
+	width: .78rem;
+	height: .78rem;
+	line-height: .78rem;
+	text-align: center;
+	color: #cfcfcf;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	background-color: #f4f2ef;
+/* 	position: absolute;
+top: 50%;
+left: 50%;
+margin-top: -.39rem;
+margin-left: -.39rem; */
+}
+.order-schedule .active .step-title {
+	color: #ffa98c;
+}
+.order-schedule .active .steps {
+	background-color: #ffa98c;
+}
+.order-schedule .circle-line {
+	display: inline-block;
+	vertical-align: top;
+	line-height: .8rem;
+	font-size: 0rem;
+}
+.order-schedule span {
+	display: inline-block;
+	width: .1rem;
+	height: .1rem;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	background-color: #cfcfcf;
+	margin-left: .08rem;
+}
+.order-schedule .current span {
+	background-color: #ffa98c;
+}
+
+
+
+
+.affirm-infor-page .affirm-form {
+	margin: .2rem;
+}
+.affirm-form .insurance-title {
+	border: 1px solid #ffa587;
+	background-color:  rgba(255, 165, 135, .2);
+	padding-left: .2rem;
+	font-size: .28rem;
+	line-height: .6rem;
+	clear: both;
+}
+.affirm-form .infor-ct {
+	border: 1px solid #cfcfcf;
+	border-top: none;
+	height: .8rem;
+	line-height: .8rem;
+	padding-left: .2rem;
+	overflow: hidden;
+	background: #fff;
+}
+.affirm-form .infor-ct span {
+	display: block;
+	width: 40%;
+	font-size: .3rem;
+	float: left;
+}
+.affirm-form .infor-ct .infor-wrap {
+	margin-left: 40%;
+	height: .8rem;
+}
+.infor-ct .infor-wrap p {
+	width: 94%;
+	height: .8rem;
+	line-height: .8rem;
+	font-size: .28rem;
+	text-align: right;
+}
+
+.btn {
+	background-color: #f4f2ef;
+	margin-top: .5rem;
+	padding: 0 10%;
+}
+.affirm-btn {
+	display: block;
+	margin-left: 10%;
+	width: 80%;
+	height: .72rem;
+	line-height: .72rem;
+	background-color: #ff6600;
+	border-radius: .13rem;
+	-webkit-border-radius: .13rem;
+	-moz-border-radius: .13rem;
+	-o-border-radius: .13rem;
+	text-align: center;
+	font-size: .24rem;
+	color: #fff;
+}
+
+
+.affirm-infor-page .payment-type {
+	margin-left: .2rem;
+	margin-right: .2rem;
+}
+.payment-type .payment-title {
+	border: 1px solid #ffa587;
+	background-color:  rgba(255, 165, 135, .2);
+	padding-left: .2rem;
+	font-size: .28rem;
+	line-height: .6rem;
+	clear: both;
+}
+.payment-type .payment-ct {
+	border: 1px solid #cfcfcf;
+	border-top: none;
+	height: .8rem;
+	line-height: .8rem;
+	padding-left: .2rem;
+	overflow: hidden;
+	background: #fff;
+}

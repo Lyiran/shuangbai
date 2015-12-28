@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="telephone=no,email=no" name="format-detection">
+	<link rel="stylesheet" href="../style/globalStyle/global.css">
+	<link rel="stylesheet" href="../style/inforFill.css">
+	<title>信息填写</title>
+</head>
+<body>
+	<header class="fixed-top">
+		<div class="g-header">
+			<a class="go-back" href="#">
+				<i class="back-icon"></i>
+			</a>
+			<h1>信息填写</h1>
+		</div>
+	</header>
+
+	<div class="wrap-page">
+		<section class="infor-fill-page">
+			<div class="order-schedule">
+				<div class="step-wrap active">
+					<div class="steps step-1">1</div>
+					<p class="step-title">基本信息</p>
+				</div>
+				<div class="circle-line current">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="step-wrap">
+					<div class="steps step-2">
+						<div class="step-inner">
+							2
+						</div>
+					</div>
+					<p class="step-title">上传照片</p>
+				</div>
+				<div class="circle-line">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="step-wrap">
+					<div class="steps step-3">
+						<div class="step-inner">
+							3
+						</div>
+					</div>
+					<p class="step-title">信息确认</p>
+				</div>
+			</div>
+
+			<div class="fill-form">
+			<form>
+				<div class="insurance-title">手机卫士服务</div>
+				<div class="input-ct">
+					<label>
+						<span>IMEI号</span>
+						<div class="input-wrap">
+							<input id="j-IMEI" type="text" placeholder="拨号界面拨打*#06#即可查看">
+						</div>
+					</label>
+				</div>
+				<div class="input-ct">
+					<label>
+						<span>姓名</span>
+						<div class="input-wrap">
+							<input id="j-userName" type="text" placeholder="投保人姓名">
+						</div>
+					</label>
+				</div>
+				<div class="input-ct">
+					<label>
+						<span>身份证</span>
+						<div class="input-wrap">
+							<input id="j-idNum" type="text" placeholder="投保人身份证号">
+						</div>
+					</label>
+				</div>
+				<div class="input-ct">
+					<label>
+						<span>手机号</span>
+						<div class="input-wrap">
+							<input id="j-phonenum" type="text" placeholder="投保人手机号">
+						</div>
+					</label>
+				</div>
+				<div class="input-ct">
+					<label>
+						<span>手机品牌</span>
+						<div class="input-wrap">
+							<input id="j-phoneBrand" type="text" placeholder="请输入手机品牌">
+						</div>
+					</label>
+				</div>
+				<div class="input-ct">
+					<label>
+						<span>手机型号</span>
+						<div class="input-wrap">
+							<input id="j-phoneType" type="text" placeholder="请输入手机型号">
+						</div>
+					</label>
+				</div>
+				<div class="input-ct">
+					<label>
+						<span>购机日期</span>
+						<div class="input-wrap">
+							<input id="j-buyDate" type="date" placeholder="请输入购机时间">
+						</div>
+					</label>
+				</div>
+
+				<div class="check-ct">
+					<label>
+						<div class="check-wrap">
+							<input id="j-checkBox" type="checkbox" checked="true">
+						</div>
+						<span>我已认真阅读<a class="server-terms" href="#">《服务条款》</a>等内容，了解并接受包括有关责任条款及免除责任条款、承保地域限制等约定。</span>
+					</label>
+				</div>
+
+				<div class="btn">
+					<a id="j-btn-submit" class="next-btn" href="javascript:;">下一步</a>
+				</div>
+			</form>
+			</div>
+		</section>
+	</div>
+	<script type="text/javascript" src="../js/jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="../js/layer.m.js"></script>
+	<script type="text/javascript" src="../js/inforFill.js"></script>
+</body>
+</html>
